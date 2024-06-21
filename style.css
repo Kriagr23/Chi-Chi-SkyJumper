@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-x: auto; /* Make the body horizontally scrollable */
+  overflow-x: auto;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body {
 .responsive-img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Ensures the image covers the entire container */
+  object-fit: cover; 
 }
 
 .overlay-gradient {
@@ -258,8 +258,8 @@ body {
 }
 
 .schedule-meet-greet-btn {
-  background: #fde403; /* Same yellow background */
-  color: #080808; /* Black text */
+  background: #fde403; 
+  color: #080808; 
   display: inline-block;
   cursor: pointer;
   border-radius: 33px;
@@ -268,15 +268,15 @@ body {
   font-size: 16px;
   padding: 10px 20px;
   margin-left: 80px;
-  margin-top: 50px; /* Space above the button */
-  border: none; /* Remove default button border */
-  text-decoration: none; /* Remove default link underline */
+  margin-top: 50px; 
+  border: none; 
+  text-decoration: none; 
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 /* Responsive styles */
 
-/* For large tablets (landscape) */
+
 @media (max-width: 1200px) and (min-width: 769px) {
   .about-section {
     flex-direction: column;
@@ -305,7 +305,7 @@ body {
   }
 }
 
-/* For tablets */
+
 @media (max-width: 768px) {
   .about-section {
     flex-direction: column;
@@ -364,7 +364,7 @@ body {
   }
 }
 
-/* For small phones */
+
 @media (max-width: 400px) {
   .about-section {
     flex-direction: column;
@@ -405,7 +405,7 @@ body {
 
 .personality h1 {
   margin-top: 10px;
-  margin: 0; /* Ensure no margin around the heading */
+  margin: 0; 
 }
 
 .personality-paragraph {
@@ -413,12 +413,12 @@ body {
   font-weight: 500;
   line-height: 33px;
   text-align: left;
-  margin: 0; /* Ensure no margin around the paragraph */
-  margin-top: 15px; /* Add space between heading and paragraph */
+  margin: 0; 
+  margin-top: 15px; 
 }
 
 .personality .highlight {
-  color: #f5881f; /* Example highlight color */
+  color: #f5881f; 
 }
 
 .personality-image {
@@ -427,9 +427,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  width: 100%; /* Adjust the width as needed */
-  height: 500px; /* Fixed height */
-  overflow: hidden; /* Hide the overflowing parts of the image */
+  width: 100%; 
+  height: 500px; 
+  overflow: hidden; 
 }
 
 .personality-features {
@@ -458,14 +458,14 @@ body {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.8) 0%,
-    /* Start with semi-transparent black */ rgba(0, 0, 0, 0.4) 100%
-      /* End with transparent */
+   rgba(0, 0, 0, 0.4) 100%
+      
   );
-  pointer-events: none; /* Allow clicks to pass through the overlay */
-  z-index: 1; /* Ensure overlay is above the image */
+  pointer-events: none; 
+  z-index: 1; 
 }
 
-/* Ensure images are above the overlay */
+
 .personality-features img {
   z-index: 2;
 }
@@ -587,7 +587,7 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Center align items horizontally */
+  align-items: center; 
   padding-top: 0px;
   padding: 20px;
 }
@@ -661,24 +661,24 @@ body {
 
 .slick-prev,
 .slick-next {
-  color: black; /* Arrow color */
-  font-size: 30px; /* Adjust arrow size if needed */
+  color: black; 
+  font-size: 30px;
 }
 
 .slick-dots li button {
-  background-color: black; /* Dot color */
-  border-color: black; /* Dot border color */
+  background-color: black; 
+  border-color: black; 
   size: 30px;
 }
 
 .slick-dots li.slick-active button {
-  background-color: white; /* Active dot color */
-  border-color: black; /* Active dot border color */
+  background-color: white; 
+  border-color: black; 
 }
 
 .slick-prev:before,
 .slick-next:before {
-  color: black !important; /* Arrow icon color */
+  color: black !important; 
 }
 /* 
 videos image */
@@ -745,9 +745,8 @@ videos image */
 }
 
 .tiptrick {
-  position: relative; /* Ensure the arrows and dots are positioned relative to the container */
-  padding: 20px; /* Add padding to prevent overflow issues */
-}
+  position: relative; 
+  padding: 20px; }
 
 .tiptrick img {
   border-radius: 10px;
@@ -788,8 +787,8 @@ videos image */
 }
 
 .slick-dots li button:before {
-  font-size: 12px; /* Adjust dot size */
-  color: black; /* Ensure dots are visible */
+  font-size: 12px; 
+  color: black; 
 }
 
 .bonus-content {
@@ -870,7 +869,7 @@ videos image */
   align-items: left !important;
   display: flex;
 }
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .jump-tech h1 {
     padding-left: 20px;
@@ -913,7 +912,7 @@ videos image */
   line-height: 30px;
   text-align: left;
   padding: 10px 40px;
-  margin: 0; /* Ensure no margin around the paragraph */
+  margin: 0; 
 }
 .schedule-heroimg {
   background-image: url(./assets/heroimg2.jpeg);
@@ -921,8 +920,8 @@ videos image */
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  width: 100%; /* Adjust the width as needed */
-  height: 500px; /* Fixed height */
+  width: 100%; 
+  height: 500px; 
   overflow: hidden;
 }
 .schedule-heroimg p {
@@ -937,10 +936,6 @@ videos image */
   z-index: 1;
 }
 
-/* .schedule-heroimg img {
-      margin-top: -90px; 
-      margin-bottom: -70px; 
-    } */
 
 .overlay-gradient-second {
   position: absolute;
@@ -961,8 +956,8 @@ videos image */
       rgba(0, 0, 0, 0.486) 100%
     );
 
-  pointer-events: none; /* Allow clicks to pass through the overlay */
-  z-index: 1; /* Ensure overlay is above the image */
+  pointer-events: none;
+  z-index: 1; 
 }
 
 .img-sch {
@@ -1044,8 +1039,8 @@ videos image */
   width: 100%;
 }
 #blog-card {
-  margin: 0 20px; /* Add margin to space out the cards */
-  text-align: center; /* Center align text inside the card */
+  margin: 0 20px; 
+  text-align: center;
   background: #ffffff;
   padding: 20px;
   border-color: #080808;
@@ -1058,14 +1053,14 @@ videos image */
 }
 
 #blog-card a {
-  text-decoration: underline; /* Underline the "Read More" link */
+  text-decoration: underline; 
   font-size: small;
-  margin-bottom: 20px; /* Add space below the link */
+  margin-bottom: 20px; 
 }
 @media (max-width: 768px) {
   .blogs {
-    flex-direction: column; /* Stack cards vertically */
-    align-items: center; /* Center align items on smaller screens */
+    flex-direction: column; 
+    align-items: center; 
   }
 
   .blogs-div h1 {
@@ -1074,14 +1069,14 @@ videos image */
   }
 
   #blog-card {
-    width: calc(100% - 20px); /* Full width minus margins */
+    width: calc(100% - 20px); 
   }
 }
 
 @media (max-width: 480px) {
   #blog-card {
-    width: 90%; /* Full width for single column on smaller screens */
-    margin: 0 auto 20px; /* Center cards and add bottom margin */
+    width: 90%; 
+    margin: 0 auto 20px; 
   }
 }
 
@@ -1139,15 +1134,15 @@ footer {
 }
 @media (max-width: 768px) {
     .logo img {
-      width: 190px; /* Adjust logo size for smaller screens */
+      width: 190px; 
     }
     
     .footer {
-      flex-direction: column; /* Stack sections vertically on smaller screens */
-      text-align: center; /* Center align all content */
+      flex-direction: column; 
+      text-align: center; 
     }
     
     .information {
-      margin-left: 0; /* Remove left margin for better alignment */
+      margin-left: 0; 
     }
   }
